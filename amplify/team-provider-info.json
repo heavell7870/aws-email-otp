@@ -1,0 +1,48 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awslogin-dev-50321-authRole",
+      "UnauthRoleArn": "arn:aws:iam::702540439167:role/amplify-awslogin-dev-50321-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::702540439167:role/amplify-awslogin-dev-50321-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-awslogin-dev-50321-deployment",
+      "UnauthRoleName": "amplify-awslogin-dev-50321-unauthRole",
+      "StackName": "amplify-awslogin-dev-50321",
+      "StackId": "arn:aws:cloudformation:us-west-2:702540439167:stack/amplify-awslogin-dev-50321/2052a370-c065-11ed-acd0-0adf81f9f277",
+      "AmplifyAppId": "d153hnkldslkow",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-awslogin-dev-50321-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "heavel": {},
+        "heavel3": {}
+      },
+      "function": {
+        "heavelCreateAuthChallenge": {
+          "deploymentBucketName": "amplify-awslogin-dev-50321-deployment",
+          "s3Key": "amplify-builds/heavelCreateAuthChallenge-434d5470687967676e45-build.zip"
+        },
+        "heavel3CreateAuthChallenge": {
+          "deploymentBucketName": "amplify-awslogin-dev-50321-deployment",
+          "s3Key": "amplify-builds/heavel3CreateAuthChallenge-4532543745366a307968-build.zip"
+        },
+        "heavel3DefineAuthChallenge": {
+          "deploymentBucketName": "amplify-awslogin-dev-50321-deployment",
+          "s3Key": "amplify-builds/heavel3DefineAuthChallenge-77536b65387279363864-build.zip"
+        },
+        "heavel3PreSignup": {
+          "deploymentBucketName": "amplify-awslogin-dev-50321-deployment",
+          "s3Key": "amplify-builds/heavel3PreSignup-4b784c636f734d473979-build.zip"
+        },
+        "heavel3VerifyAuthChallengeResponse": {
+          "deploymentBucketName": "amplify-awslogin-dev-50321-deployment",
+          "s3Key": "amplify-builds/heavel3VerifyAuthChallengeResponse-566d7657616a2f616543-build.zip"
+        },
+        "heavel1CreateAuthChallenge": {
+          "deploymentBucketName": "amplify-awslogin-dev-50321-deployment",
+          "s3Key": "amplify-builds/heavel1CreateAuthChallenge-56537347453449616137-build.zip"
+        }
+      }
+    }
+  }
+}
